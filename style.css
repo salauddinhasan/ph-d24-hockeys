@@ -40,6 +40,7 @@ i {
 
 /* message  */
 
+
 #message {
   transition:
     transform 0.3s ease,
@@ -49,8 +50,17 @@ i {
 #message:hover {
   transform: translateY(-6px);
 }
+ 
 
-
+.card-container {
+   transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+ .card-container:hover {
+  transform: translateY(-5px);
+}
 
 /* items  */
  
@@ -66,7 +76,7 @@ i {
     transform: translateY(-4px); 
   }
 
-.contact-items {
+ .contact-items {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
