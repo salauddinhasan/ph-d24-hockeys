@@ -7,6 +7,7 @@
 body {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
+  background-color: #FFFFFF;
 }
 
 .container {
@@ -37,60 +38,7 @@ i {
   font-weight: bold;
 }
 
-#images-animation {
-  width: 150px;
-  height: 60px;
-  background-color: white;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
-  margin: 200px auto 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  position: relative;
-  overflow: hidden;
-  transition: all 0.3s ease;
-}
-
-#images-animation:hover{
-  width: 250px;
-  height: 150px;
-  top: 15px;
-  left: 2px;
-  padding: 10px;
-  align-items: start;
-  justify-content: start;
-  transform: translateY(-80px);
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.comment {
-  position: absolute;
-  top: 60px;
-  opacity: 0;
-}
-.comment:hover {
-  text-align: start;
-  margin-left: 5px;
-}
-
-.comment h4 {
-  margin: 0;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.comment p {
-  margin: 4px 0 0;
-  font-size: 14px;
-}
-
-#images-animation:hover .comment {
-  opacity: 1;
-}
+/* message  */
 
 #message {
   transition:
@@ -102,4 +50,22 @@ i {
   transform: translateY(-6px);
 }
 
+.
 
+/* items  */
+ 
+
+.item {
+   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 15px;
+     transition: 0.3s; 
+    } 
+
+.item:hover {
+   box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    transform: translateY(-4px); 
+  }
+
+.contact-items {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
